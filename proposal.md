@@ -1,17 +1,18 @@
-# Is there a correlation between the economic & social institutions and the population density of an area?
+# Is there a correlation between the economic & social institutions and the population density of an area/state?
 - Group Members
 	- Morgen Henry
 	- Mark Speers
 	- Oliver Einarsson
 	- Ryan Krause
-	- Gina Fender 
+	- Gina Fender
 - Data Sources
 	- Demographics dataset: 
+		- do we think the census API can be used here? 
 	- Geographic dataset: https://apidocs.geoapify.com/docs/geocoding/forward-geocoding/#about
-		- This dataset is what we used in class to pull the latitudes and longitudes of places. I think we could use it to match geographical features of a country with the national-level religion data.
+		- This dataset is what we used in class to pull the latitudes and longitudes of places. I think we could use it to match geographical features of a state/area with our other data.
 	- City financial indicators dataset: 
 - Potential questions
-	- What relationships does religion on have with various features of the local/... area?
+	- What relationships does population density have with various features of the city/state?
 		- Governmental spending proportions
 			- Proxy could be data on tax rates of an area
 		- Geographical features
