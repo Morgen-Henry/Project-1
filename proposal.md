@@ -8,13 +8,17 @@
 - Data Sources
 	- Demographics dataset: 
 		- do we think the census API can be used here? 
+		- Variables
+			- Population density
 	- Geographic dataset: https://apidocs.geoapify.com/docs/geocoding/forward-geocoding/#about
-		- This dataset is what we used in class to pull the latitudes and longitudes of places. I think we could use it to match geographical features of a state/area with our other data.
-	- City financial indicators dataset: 
+		- Variables
+			- 
+	- City financial indicators dataset(s): 
+		- Variables
+			- 
 - Potential questions
 	- What relationships does population density have with various features of the city/state?
 		- Governmental spending proportions
 			- Proxy could be data on tax rates of an area
 		- Geographical features
-		- Population Density
 	- Stress and uncertainty affect religiousness?
