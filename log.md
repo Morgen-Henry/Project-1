@@ -14,3 +14,4 @@
 2023-04-30
 - Oliver: created several cool graphs exploring the relationship between our independent variables and population density. 
 
+- Mark: added 2 boxplots to aid in explanation of potentially removing outliers (these don't need to stick around, they just help show that we have a lot of outliers)
