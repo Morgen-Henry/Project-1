@@ -35,13 +35,16 @@ There are three folders in this repository which contain the files of primary im
 Three notebooks are in this folder: dataSourcingCleaning, eco_health, and education_visual. 
 
 1. dataSourcingCleaning.ipynb
-    - This notebook contains all steps of data sourcing/merging. Some of the data was sourced using the [Census wrapper](https://github.com/datamade/census) while other census data was pulled from the [U.S Department of Agriculture Website](https://www.ers.usda.gov/data-products/county-level-data-sets/). All data gathered at the county level. 
+    - This notebook contains most steps of data sourcing/merging. Some of the data was sourced using the [Census wrapper](https://github.com/datamade/census). Other data was sourced in the second notebook and is described below. All data gathered at the county level. 
     - Several cleaning steps were necessary to ready the data for analysis. 
     - After missing data was removed, and the county column was split into state and county columns, a three-part merge was performed. The merge was performed on the County and State columns to ensure as little duplicates as possible. 
       - Subsequent to merging, our main variable of interest, population density, was calculated by dividing a county's total population by its land area in square miles. 
     - The three part merge was the last step in this notebook. 
 
-2. eco_health.ipynb
+2. datacsv.ipynb
+    - This notebooks contains all the steps for sourcing and cleaning data from [U.S Department of Agriculture Website](https://www.ers.usda.gov/data-products/county-level-data-sets/).
+
+3. eco_health.ipynb
     - This notebook contains most of the code used the conduct the analyses and produce the visualizations. 
     - First, this notebook contains exporatory analyses and further cleaning of the data. This includes some histograms and boxplots. 
     - Based upon the above investigations, missing values were removed and it was decided that the data would be split into two categories, low density and high density, based on population density. The cutoff value, 249 people per $mi^2$ was determined using the $1.5 * IQR$ rule. Thus, all counties with less than 249 people per square mile were considered low density counties, and all others were considered high density counties. All subsequent analyses were peformed separately on these two subsets. 
@@ -53,7 +56,7 @@ Three notebooks are in this folder: dataSourcingCleaning, eco_health, and educat
     - Scatter plots were produced for all of these relationships. Additionally, linear regressions were performed on those variable pairs that had statistically significant relationships. Most of the relationships, even when significant, were extremely weak. Usually the explained variance values or Pearson's r values were below .2. 
     - Lastly, two heatmaps were produced using correlation matrices for the low & high density subsets. We didn't think to do this until we were practically done with the project. One lesson learned is that we could have used these heatmaps to do what we did more efficiently. We would not have to produce scatter plots of every relationship if we had looked at the heatmaps first, but hindsight is 20-20 and we'll remember for next time to check the heatmap for strong relationships first. 
 
-3. education_visual.ipynb
+4. education_visual.ipynb
     - This notebook contains all the code used to produce the scatter plots of education rates vs. population density. These were produced in a separate notebook because there were so many visualizations necessary to capture all levels of education. 
 
 
