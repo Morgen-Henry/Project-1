@@ -1,3 +1,24 @@
-# Project-1
-Project 1
-This is group jellyfish's (never rename) repository for Project 1. This project was completed pursuant to graduation from MSU's Data Analytics & Visualization bootcamp. 
+# Project 1
+# Characterization of US Counties with High and Low Population Densities
+- Group Members:
+	- Morgen Henry
+	- Mark Speers
+	- Oliver Einarsson
+	- Ryan Krause
+	- Gina Fender
+- Data Source:
+	- US Census: https://www.ers.usda.gov/data-products/county-level-data-sets/ 
+- Questions Answered:
+  - Are most counties in the US densely or sparsely populated?
+    - Most US counties are sparsely populated.
+  - Are most counties in the US similar in size?
+    - No, county size can range from almost 20,000 square miles to slightly more than 300 square miles.
+  - Does it cost more to live in a densely populated county?
+    - Yes, while the most sparsely populated require between $400 and $1000 per month for rent, most densely populated cities require $700 and $1200 per month for rent.
+  - Do workers in densely populated counties have a higher income?
+    - This depends if you are considering income per capita or median household income. Median household incomes are similar between counties with high and low population densities, while there is a higher income per capita in densely populated counties than sparsely populated counties.
+  - What highest level of education is most common in dense versus sparse counties?
+    - A higher percentage of people have a Bachelor's or higher in densely populated counties than in sparsely populated counties.
+  - Do you need to have a high level of education to have a high income in US counties?
+    - Yes, in both sparsely and densely populated counties, a higher education correlating with a higher income.
+- Data Analysis
