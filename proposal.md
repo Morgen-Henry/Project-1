@@ -7,15 +7,23 @@
 	- Gina Fender
 - Data Sources
 	- Demographics dataset: 
-		- do we think the census API can be used here? 
 		- Variables
-			- Population density
+			- Population density: 
+				- population: https://data.census.gov/table?q=population+&g=010XX00US$0500000&tid=PEPPOP2019.PEPANNRES
+					- the above link has annual population by county 
+				- land area: 
+
+
 	- Geographic dataset: https://apidocs.geoapify.com/docs/geocoding/forward-geocoding/#about
 		- Variables
 			- 
 	- City financial indicators dataset(s): 
 		- Variables
-			- 
+			- cost of living: 
+			- average wage:
+
+
+
 - Potential questions
 	- What relationships does population density have with various features of the city/state?
 		- Governmental spending proportions
